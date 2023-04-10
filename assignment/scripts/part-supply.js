@@ -37,6 +37,9 @@ console.log('6. Showing supplyChanges...');
 for (let i = 0: 1 < supplyChanges.length; i++) {
     console.log(supplyChanges(i));
 }
+if (i > 0) {alert('Added x parts'); i++ }
+if (i = 0) {alert('No Change'); i++ }
+if (i < 0) {alert('Removed x parts'; i++ )}
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
