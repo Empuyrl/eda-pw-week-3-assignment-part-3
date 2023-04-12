@@ -11,10 +11,12 @@ console.log(partsNeeded);
 //    the following numbers: 3, 5, -6, 0, 7, 11
 console.log('2. Array of supplyChanges:');
 let supplyChanges = ['3', '5', '-6', '0', '7', '11'];
+console.log('The supply changes are', supplyChanges);
 
 // 3. Console log the value of the second item in the 'supplyChanges' array
 console.log('3. Second supplyChange is:');
 supplyChanges[1];
+console.log('The second supplychange is', supplyChanges[1]);
 
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
@@ -34,12 +36,12 @@ supplyChanges.push(25);
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
-for (let i = 0: 1 < supplyChanges.length; i++) {
+for (let i = 0; 1 < supplyChanges.length; i++) {
     console.log(supplyChanges(i));
 }
 if (i > 0) {alert('Added x parts'); i++ }
 if (i = 0) {alert('No Change'); i++ }
-if (i < 0) {alert('Removed x parts'; i++ )}
+if (i < 0) {alert('Removed x parts'); i++ }
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
