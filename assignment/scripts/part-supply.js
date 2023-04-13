@@ -10,7 +10,7 @@ console.log(partsNeeded);
 // 2. Create a variable call 'supplyChanges' set it to an array containing
 //    the following numbers: 3, 5, -6, 0, 7, 11
 console.log('2. Array of supplyChanges:');
-let supplyChanges = ['3', '5', '-6', '0', '7', '11'];
+let supplyChanges = [3, 5, -6, 0, 7, 11];
 console.log('The supply changes are', supplyChanges);
 
 // 3. Console log the value of the second item in the 'supplyChanges' array
@@ -40,8 +40,8 @@ console.log('6. Showing supplyChanges...');
 for (let i = 0; i < supplyChanges.length; i++) {
     if (supplyChanges[i] > 0) {
         console.log('Added', supplyChanges[i], 'parts.');
-    } if (supplyChanges === 0) {
-        console.log('No change.');
+    } if (supplyChanges[i] === 0) {
+        console.log('No change', supplyChanges[i]);
     } if (supplyChanges[i] < 0) {
         console.log('Removed', supplyChanges[i], 'parts.');
     }
